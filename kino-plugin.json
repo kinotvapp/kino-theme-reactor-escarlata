@@ -1,8 +1,8 @@
 {
   "id": "theme-reactor-escarlata",
   "name": "Reactor Escarlata",
-  "version": "1.0.2",
-  "apiVersion": 17,
+  "version": "1.0.3",
+  "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
   "description": "Rojo de armadura y dorado de reactor, para genios con traje de metal.",
