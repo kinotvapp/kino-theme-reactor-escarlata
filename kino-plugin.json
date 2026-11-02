@@ -1,7 +1,7 @@
 {
   "id": "theme-reactor-escarlata",
-  "name": "Reactor Escarlata",
-  "version": "1.0.4",
+  "name": "Iron Man",
+  "version": "1.1.0",
   "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
@@ -15,8 +15,8 @@
     "screen"
   ],
   "screen": {
-    "label": "Reactor Escarlata",
-    "labelEn": "Scarlet Reactor",
+    "label": "Iron Man",
+    "labelEn": "Iron Man",
     "opensFrom": [
       "settings"
     ],
@@ -29,16 +29,16 @@
     {
       "id": "reactor-escarlata",
       "name": {
-        "es": "Reactor Escarlata",
-        "en": "Scarlet Reactor"
+        "es": "Iron Man",
+        "en": "Iron Man"
       },
       "colors": {
         "accent": "#FFB627",
-        "onAccent": "#1F1200",
-        "background": "#170505",
-        "surface": "#2A0D0D",
-        "surfaceHigh": "#3B1515",
-        "railPanel": "#200808"
+        "onAccent": "#2A1400",
+        "background": "#1A0406",
+        "surface": "#2B0A0E",
+        "surfaceHigh": "#42131A",
+        "railPanel": "#220709"
       },
       "shape": {
         "cardRadius": 12,
@@ -61,8 +61,8 @@
         "colors.accent": {
           "swatches": [
             "#FFB627",
-            "#FF6B6B",
-            "#7FE3FF"
+            "#FF4D4D",
+            "#7FDBFF"
           ]
         },
         "shape.cardRadius": {
@@ -77,14 +77,52 @@
       "background": {
         "type": "gradient",
         "colors": [
-          "#170505",
-          "#4A0C0C"
+          "#1A0406",
+          "#5A0E16"
         ],
-        "angle": 150
+        "angle": 170
       },
       "price": {
         "kinos": 10,
         "payTo": "8b97f0011f9d4594d269edc4afb3a0ee10e394abf54b0a40d90ca83f8f7d6a0e"
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M -381 -132 A 28 28 0 1 1 -325 -132 A 28 28 0 1 1 -381 -132 Z",
+              "fill": "#C21F1F"
+            },
+            {
+              "d": "M -377 -138 L -329 -138 Q -331 -110 -353 -104 Q -375 -110 -377 -138 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M -372 -133 L -357 -133 L -359 -126 L -372 -128 Z M -334 -133 L -349 -133 L -347 -126 L -334 -128 Z",
+              "fill": "#FFFFFF"
+            },
+            {
+              "d": "M -104 0 A 104 104 0 1 1 104 0 A 104 104 0 1 1 -104 0 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -100 0 A 100 100 0 1 1 100 0 A 100 100 0 1 1 -100 0 Z M -66 0 A 66 66 0 1 0 66 0 A 66 66 0 1 0 -66 0 Z M 68.3 15.7 L 67.0 20.5 L 92.1 27.3 L 93.4 22.4 Z M 51.3 47.7 L 47.7 51.3 L 66.1 69.7 L 69.7 66.1 Z M 20.5 67.0 L 15.7 68.3 L 22.4 93.4 L 27.3 92.1 Z M -15.7 68.3 L -20.5 67.0 L -27.3 92.1 L -22.4 93.4 Z M -47.7 51.3 L -51.3 47.7 L -69.7 66.1 L -66.1 69.7 Z M -67.0 20.5 L -68.3 15.7 L -93.4 22.4 L -92.1 27.3 Z M -68.3 -15.7 L -67.0 -20.5 L -92.1 -27.3 L -93.4 -22.4 Z M -51.3 -47.7 L -47.7 -51.3 L -66.1 -69.7 L -69.7 -66.1 Z M -20.5 -67.0 L -15.7 -68.3 L -22.4 -93.4 L -27.3 -92.1 Z M 15.7 -68.3 L 20.5 -67.0 L 27.3 -92.1 L 22.4 -93.4 Z M 47.7 -51.3 L 51.3 -47.7 L 69.7 -66.1 L 66.1 -69.7 Z M 67.0 -20.5 L 68.3 -15.7 L 93.4 -22.4 L 92.1 -27.3 Z",
+              "fill": "#6FE0FF"
+            },
+            {
+              "d": "M -64 0 A 64 64 0 1 1 64 0 A 64 64 0 1 1 -64 0 Z",
+              "fill": "#0B3A4A"
+            },
+            {
+              "d": "M -52 0 A 52 52 0 1 1 52 0 A 52 52 0 1 1 -52 0 Z M -47 0 A 47 47 0 1 0 47 0 A 47 47 0 1 0 -47 0 Z",
+              "fill": "#BDF3FF"
+            },
+            {
+              "d": "M 0 -34 L 30 20 L -30 20 Z M 0 -22 L 18 11 L -18 11 Z M -10 2 A 10 10 0 1 0 10 2 A 10 10 0 1 0 -10 2 Z",
+              "fill": "#E6FBFF"
+            }
+          ]
+        }
       }
     }
   ]
