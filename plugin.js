@@ -1,5 +1,5 @@
 // A theme's presentation, drawn with the screen kit in whichever theme is active.
-const THEME = {"id": "reactor-escarlata", "es": "Reactor Escarlata", "en": "Scarlet Reactor", "hook": "Sí, también tiene corazón.", "hookEn": "Yes, it has a heart too.", "desc": "Rojo de armadura y dorado de reactor, para genios con traje de metal."};
+const THEME = {"id": "reactor-escarlata", "es": "Iron Man", "en": "Iron Man", "hook": "Un genio, un traje, un reactor.", "hookEn": "A genius, a suit, a reactor.", "desc": "Rojo de armadura y dorado de reactor, para genios con traje de metal."};
 const t = (es, en) => ({ text: es, textEn: en });
 
 export async function screen({ activeTheme }) {
